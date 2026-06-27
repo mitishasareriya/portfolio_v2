@@ -45,7 +45,7 @@ const Hero = () => {
       
       {/* Background Elements */}
       <div className="absolute inset-0 z-0">
-        {/* <DotField
+        <DotField
           dotRadius={1.5}
           dotSpacing={14}
           bulgeStrength={67}
@@ -55,7 +55,7 @@ const Hero = () => {
           gradientFrom="rgba(168, 85, 247, 0.35)"
           gradientTo="rgba(59, 130, 246, 0.35)"
           glowColor="rgba(59, 130, 246, 0.2)"
-        /> */}
+        />
         {/* Center Radial Glow */}
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/10 rounded-full blur-[120px] pointer-events-none"></div>
       </div>
